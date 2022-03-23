@@ -1,10 +1,10 @@
-<!DOCTYPE html> <!--20181380 양승현 koreaAnthem6.html-->
+<!doctype html> <!--20181380 양승현 koreaAnthem6.html-->
 <html lang ="ko">
     <head>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width,initial-scale=1"/>
         <script>
-            function event1onClick() {
+            function event1onclick() {
                 document.getElementById("id_1").innerHTML
                 ="동해물과 백두산이 마르고 닳도록 하느님이 보우하사 <mark>우리나라 만세</mark><br/><i>(후렴)무궁화 삼천리 화려강산 대한 사람 대한으로 길이 보전하세</i><br/>";
                 document.getElementById("id_2").innerHTML="";
@@ -25,7 +25,7 @@
                 document.getElementById("id_1").innerHTML="";
                 document.getElementById("id_4").innerHtml="";
             }
-            function event4onClick(){
+            function event4onclick(){
                 document.getElementById("id_4").innerHTML
                 ="이 기상과 이 맘으로 충성을 다하여 괴로우나 즐거우나 <mark>나라 사랑하세</mark><br/><i>(후렴)무궁화 삼천리 화려강산 대한 사람 대한으로 길이 보전하세</i><br/>";
                 document.getElementById("id_2").innerHTML="";
@@ -39,8 +39,8 @@
         <h4>애국가</h4>
         <ul style="list-style-type:square">
             <li onclick="event1onclick()">1절<br/><p id="id_1"></p></li>
-            <li onclick="event2onclick()">2절<br/><p id="id_2"></p></li>
-            <li onclick="event3onclick()">3절<br/><p id="id_3"></p></li>
+            <li onclick="event2onClick()">2절<br/><p id="id_2"></p></li>
+            <li onclick="event3onClick()">3절<br/><p id="id_3"></p></li>
             <li onclick="event4onclick()">4절<br/><p id="id_4"></p></li>
         </ul>
     </body>
