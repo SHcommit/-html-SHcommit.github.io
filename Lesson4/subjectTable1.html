@@ -1,0 +1,75 @@
+<!DOCTYPE html> <!-- subjectTable1.html-->
+<html lang="ko">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <style>
+            table, thead, tbody, tfoot, tr, th, td {
+                border: 2px solid black ; 
+                border-collapse: collapse;
+                text-align: center;
+            }
+            .subject1 {
+                background-color: lightgray;
+            }
+            .subject2 {
+                background-color:yellowgreen;
+            }
+            .subject3 {
+                background-color: aqua;
+            }
+            .subjcet4 {
+                background-color:yellow;
+            }
+            .subject5 {
+                background-color:cornflowerblue;
+            }
+            .subject6 {
+                background-color: violet;
+            }
+            th, td {width: 100px; height: 40px;}
+            
+        </style> <!--border-collapse 단선으로, 반대는 sepatate -->
+        <title> HTML5 시간표</title>
+    </head>
+    <body>
+
+        <table>
+            <caption>  rm&lt; 컴퓨터공학과 양승현 &gt; 시간표</caption>
+            <thead>
+                <tr><th>시간</th> <th>월</th>                                  <th>화</th>                                 <th>수</th>                                 <th>목</th>                              <th>금</th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1교시</td><td></td>                                    <td></td>                                   <td class="subjcet4">운영체제</td>           <td></td>                               <td rowspan="3" class="subject1">모바일<br>프로그래밍</td>
+                </tr>
+                <tr>
+                    <td>2교시</td><td></td>                                    <td></td>                                   <td></td>                                  <td></td>                              <!-- 연속 -->
+                </tr>
+                <tr>
+                    <td>3교시</td><td></td>                                    <td></td>                                   <td></td>                                  <td></td>                              <!--연속-->>
+                </tr>
+                <tr>
+                    <td>4교시</td><td></td>                                    <td></td>                                  <td rowspan="3" class="subject3">서양현대사</td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td>5교시</td><td></td>                                    <td></td>                                    <!-- 연속 -->                                 <td></td>                            <td></td>
+                </tr>
+                <tr>
+                    <td>6교시</td><td rowspan="2" class="subject6" >영상처리</td><td rowspan="2" class="subjcet4">운영체제</td>  <!-- 연속 -->                                 <td></td>                            <td></td>
+                </tr>
+                <tr>
+                    <td>7교시</td>          <!--연속-->                          <!--연속-->                                 <td rowspan="2" class="subject5">인터넷 응용</td><td class="subject2">켐퍼스<br>멘토링</td><td></td>
+                </tr>
+                <tr>
+                    <td>8교시</td><td></td>                                 <td class="subject6">영상처리</td>                <!-- 연속 -->                                 <td></td>                               <td></td>
+                </tr> 
+                <tr>
+                    <td>9교시</td><td class="subject5">인터넷 응용</td>        <td></td>                                    <td></td>                                        <td></td>                             <td></td>
+                </tr>
+                
+
+            </tbody>
+        </table>
+    </body>
+</html>
