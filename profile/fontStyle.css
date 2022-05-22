@@ -7,7 +7,7 @@
     src: url(AppleSDGothicNeoL.ttf);
 }
 h1 {
-    font-size: 2em;
+    font-size: 3em;
     font-family: "appleFont_H";
     text-shadow: 0.1em 0.2em 0.4em #f0d5d5;
     /**
@@ -21,6 +21,24 @@ div, section, section section {
     font-family: "appleFont";
 }
 div #info{
+    margin-left: 300px;
+    margin-top: 100px;
     font-size:1.2em;
+    font-family: "appleFont";
+}
+div #myStyle{
+    font-size: 1.2em;
+    font-family: "appleFont";
+}
+.myName{
+    font-size: 4em;
+    font-family: "appleFont_H";
+}
+.myTarget{
+    font-size: 2em;
+    font-family: "appleFont";
+}
+.myInfomation{
+    font-size:1.1em;
     font-family: "appleFont";
 }
