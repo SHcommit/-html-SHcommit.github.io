@@ -1,14 +1,14 @@
 /*
 프로필 누르기 이전과 누를때 after, hover를 통해 게이지 참.
 */
-.card{
+.card0{
     border:none;
     position:relative;
     overflow:hidden;
     border-radius:8px;
     cursor:pointer;
 }
-.card:before{
+.card0:before{
     
     content:"";
     position:absolute;
@@ -16,12 +16,40 @@
     top:0;
     width:4px;
     height:100%;
-    background-color:#f4daf1;
+    background-color:#659999;
     transform:scaleY(1);
     transition:all 0.5s;
     transform-origin: bottom
 }
-.card:after{
+.card0:after{
+    
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:5px;
+    height:100%;
+    background: #ffd452;  
+
+    transform:scaleY(0);
+    transition:all 0.5s;
+    transform-origin: bottom
+}
+.card0:hover::after{
+    transform:scaleY(1);
+}
+
+/**
+두번째 section
+*/
+.card1{
+    border:none;
+    position:relative;
+    overflow:hidden;
+    border-radius:8px;
+    cursor:pointer;
+}
+.card1:before{
     
     content:"";
     position:absolute;
@@ -29,11 +57,25 @@
     top:0;
     width:4px;
     height:100%;
-    background-color:#d088c4;
+    background-color:#78ffd6;
+    transform:scaleY(1);
+    transition:all 0.5s;
+    transform-origin: bottom
+}
+.card1:after{
+    
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:5px;
+    height:100%;
+    background: #a8ff78;  
+
     transform:scaleY(0);
     transition:all 0.5s;
     transform-origin: bottom
 }
-.card:hover::after{
+.card1:hover::after{
     transform:scaleY(1);
 }
