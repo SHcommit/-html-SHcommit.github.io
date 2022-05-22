@@ -1,0 +1,18 @@
+header {
+    text-align: center;
+}
+body {
+    background: #076585;
+    background: -webkit-linear-gradient(to right, #fff, #076585);  
+    background: linear-gradient(to right, #fff, #076585);
+}
+div #usual {
+margin-left:100px;
+margin-top:30px;
+margin-bottom:30px;
+}
+p #gitStyle{
+margin-left:100px;
+margin-top:30px;
+margin-bottom:30px;
+}
