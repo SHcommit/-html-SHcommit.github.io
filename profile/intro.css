@@ -1,14 +1,14 @@
 /*
 프로필 누르기 이전과 누를때 after, hover를 통해 게이지 참.
 */
-.card0{
+.reactiveGauge0{
     border:none;
     position:relative;
     overflow:hidden;
     border-radius:8px;
     cursor:pointer;
 }
-.card0:before{
+.reactiveGauge0:before{
     
     content:"";
     position:absolute;
@@ -16,12 +16,12 @@
     top:0;
     width:4px;
     height:100%;
-    background-color:#659999;
+    background-color:#DECBA4;
     transform:scaleY(1);
     transition:all 0.5s;
     transform-origin: bottom
 }
-.card0:after{
+.reactiveGauge0:after{
     
     content:"";
     position:absolute;
@@ -35,21 +35,21 @@
     transition:all 0.5s;
     transform-origin: bottom
 }
-.card0:hover::after{
+.reactiveGauge0:hover::after{
     transform:scaleY(1);
 }
 
 /**
 두번째 section
 */
-.card1{
+.reactiveGauge1{
     border:none;
     position:relative;
     overflow:hidden;
     border-radius:8px;
     cursor:pointer;
 }
-.card1:before{
+.reactiveGauge1:before{
     
     content:"";
     position:absolute;
@@ -57,12 +57,12 @@
     top:0;
     width:4px;
     height:100%;
-    background-color:#78ffd6;
+    background-color:#fffbd5;
     transform:scaleY(1);
     transition:all 0.5s;
     transform-origin: bottom
 }
-.card1:after{
+.reactiveGauge1:after{
     
     content:"";
     position:absolute;
@@ -76,6 +76,132 @@
     transition:all 0.5s;
     transform-origin: bottom
 }
-.card1:hover::after{
+.reactiveGauge1:hover::after{
+    transform:scaleY(1);
+}
+
+/**
+c언어 프로젝트
+*/
+.reactiveGauge2{
+    border:none;
+    position:relative;
+    overflow:hidden;
+    border-radius:8px;
+    cursor:pointer;
+}
+.reactiveGauge2:before{
+    
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:4px;
+    height:100%;
+    background-color:#FFFDE4;
+    transform:scaleY(1);
+    transition:all 0.5s;
+    transform-origin: bottom
+}
+.reactiveGauge2:after{
+    
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:5px;
+    height:100%;
+    background: #005AA7;  
+
+    transform:scaleY(0);
+    transition:all 0.5s;
+    transform-origin: bottom
+}
+.reactiveGauge2:hover::after{
+    transform:scaleY(1);
+}
+
+/*
+calculator
+*/
+
+.reactiveGauge3{
+    border:none;
+    position:relative;
+    overflow:hidden;
+    border-radius:8px;
+    cursor:pointer;
+}
+.reactiveGauge3:before{
+    
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:4px;
+    height:100%;
+    background-color:#40E0D0;
+    transform:scaleY(1);
+    transition:all 0.5s;
+    transform-origin: bottom
+}
+.reactiveGauge3:after{
+    
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:5px;
+    height:100%;
+    background: #FF8C00;  
+
+    transform:scaleY(0);
+    transition:all 0.5s;
+    transform-origin: bottom
+}
+.reactiveGauge3:hover::after{
+    transform:scaleY(1);
+}
+
+/**
+imageProcessing & mfc
+*/
+
+
+.reactiveGauge4{
+    border:none;
+    position:relative;
+    overflow:hidden;
+    border-radius:8px;
+    cursor:pointer;
+}
+.reactiveGauge4:before{
+    
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:4px;
+    height:100%;
+    background-color:#E9E4F0;
+    transform:scaleY(1);
+    transition:all 0.5s;
+    transform-origin: bottom
+}
+.reactiveGauge4:after{
+    
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:5px;
+    height:100%;
+    background: #fc4a1a;  
+
+    transform:scaleY(0);
+    transition:all 0.5s;
+    transform-origin: bottom
+}
+.reactiveGauge4:hover::after{
     transform:scaleY(1);
 }
