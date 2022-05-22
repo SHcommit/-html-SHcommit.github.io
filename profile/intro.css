@@ -205,3 +205,87 @@ imageProcessing & mfc
 .reactiveGauge4:hover::after{
     transform:scaleY(1);
 }
+
+/**
+ios movTheater
+*/
+
+
+.reactiveGauge5{
+    border:none;
+    position:relative;
+    overflow:hidden;
+    border-radius:8px;
+    cursor:pointer;
+}
+.reactiveGauge5:before{
+    
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:4px;
+    height:100%;
+    background-color:#F2F2F2;
+    transform:scaleY(1);
+    transition:all 0.5s;
+    transform-origin: bottom
+}
+.reactiveGauge5:after{
+    
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:5px;
+    height:100%;
+    background: #ADA996;  
+
+    transform:scaleY(0);
+    transition:all 0.5s;
+    transform-origin: bottom
+}
+.reactiveGauge5:hover::after{
+    transform:scaleY(1);
+}
+
+/**
+animated trs swift
+*/
+.reactiveGauge6{
+    border:none;
+    position:relative;
+    overflow:hidden;
+    border-radius:8px;
+    cursor:pointer;
+}
+.reactiveGauge6:before{
+    
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:4px;
+    height:100%;
+    background-color:#1a2a6c;
+    transform:scaleY(1);
+    transition:all 0.5s;
+    transform-origin: bottom
+}
+.reactiveGauge6:after{
+    
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:5px;
+    height:100%;
+    background: #fdbb2d;  
+
+    transform:scaleY(0);
+    transition:all 0.5s;
+    transform-origin: bottom
+}
+.reactiveGauge6:hover::after{
+    transform:scaleY(1);
+}

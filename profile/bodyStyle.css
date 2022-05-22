@@ -51,3 +51,28 @@ margin: left 15%;;
 margin: top 5%;
 margin-bottom:30px;
 }
+
+.containerGithub{
+    text-align: center;
+    margin:auto;
+    width: 800px;
+    height: auto;
+    box-shadow: 10px 10px 10px rgb(156, 152, 152);
+    border-radius: 20px; 
+}
+
+.containerProject{
+    text-align: center;
+    margin:auto;
+    width: 400px;
+    height: auto;
+    box-shadow: 10px 10px 10px rgb(156, 152, 152);
+    border-radius: 20px; 
+}
+
+.divProject{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    float: left;
+    
+}
