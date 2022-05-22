@@ -2,46 +2,86 @@
 
 <html>
     <head>
+        <meta charset="utf-8"/>
+        <meta name="viewoprt" content="width=device-width, initial-scale=1"/>
 
-        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript">   
-$(document).ready( function() {
-$("#bojProfile").load("http://mazassumnida.wtf/api/v2/generate_badge?boj=happysh_s2");  // 원하는 파일 경로를 삽입하면 된다
-});
-</script>
-
-
-
-
+        <!--애플 폰트 추가-->
+        <link href="fontStyle.css" rel="stylesheet">
+        <!--바디, 헤더 등 스타일-->
+        <link href="bodyStyle.css" rel="stylesheet">
+        <style>
+            body {
+                    background: #076585;
+                    background: -webkit-linear-gradient(to right, #fff, #076585);  
+                    background: linear-gradient(to right, #fff, #076585);
+                }
+            div #usual {
+                margin-left:100px;
+                margin-top:30px;
+                margin-bottom:30px;
+            }
+            p #gitStyle{
+                margin-left:100px;
+                margin-top:30px;
+                margin-bottom:30px;
+            }
+        </style>
     </head>
     <body>
+        
         <header></header>
         <section>
-            <div>
-                <h3 style="margin-top:14pt; margin-bottom:14.05pt; text-align:center; ">
-                    <span style="font-family:'Times New Roman'; color:#000000">About Me_</span>
-                </h3>
-            </div>
-            <div>
-                <h3 style="margin-top:14pt; margin-bottom:14.05pt; text-align:center; ">
-                    <span style="font-family:'Times New Roman'; color:#000000">Baekjoon Tier_</span>
-                </h3>
-                <div id="bojProfile">h</div>
 
-                <iframe src="http://mazassumnida.wtf/api/v2/generate_badge?boj=happysh_s2" >백준 티어</iframe>
+            <!--저를 소개하는 글이 담겨 있습니다ㅏ-->
+            <div>
+                <h1 style="margin-top:14pt; margin-bottom:14.05pt; text-align:center; "><span style="color:snow">About Me_</span></h1>
+
+                <div id="usual">
+                <img src="https://ghchart.rshah.org/219138/SHCommit/" alt="깃 잔디"/>
+                </div>
+                <p>
+                    안녕하세요. 저는 컴퓨터공학과 3학년 양승현입니다. 저는 <span style="text-shadow: 0.1em 0.2em 0.4em #f0d5d5;">IOS 앱 개발자</span>를 목표로 하고 있습니다.
+                </p>
+                
+                
+                <br/><br/><br/><br/>
+            </div>
+
+
+            <!--저의 프로젝트가 담겨있습니다-->
+            <div>
+                <h1 style="margin-top:14pt; margin-bottom:14.05pt; text-align:center; ">
+                    <span style="font-family:'appleFont_H'; color:#ffffff">Project_</span>
+                </h1>
+            </div>
+            <!--백준 티어 와 관련된 div입니다.-->
+            <div>
+                <h1 style="margin-top:14pt; margin-bottom:14.05pt; text-align:center; repeatCount:indefinite">
+                    <span style="color:#ffffff">Baekjoon Tier_</span>
+                </h1>
+                <!--백준 프로필 이미지 불러오기-->
+                <div style="display:inline-block;vertical-align:top;">
+                    <img src="boj_badge.svg" alt="백준 티어">
+                </div>
+                    <div style="display:inline-block;">
+                    <p>
+                        <!-- 알고리즘 관련 서술 -->
+                        <ul>
+                            <li>하핳</li>
+                            <li style="font-family: 'appleFont'">하하하핳</li>
+                        </ul>
+                    </p>
+                    </div>
 
             </div>
+
             <div>
-                <h3 style="margin-top:14pt; margin-bottom:14.05pt; text-align:center; ">
-                    <span style="font-family:'Times New Roman'; color:#000000">Tech_</span>
-                </h3>
+                <h1 style="margin-top:14pt; margin-bottom:14pt; text-align:center; ">Tech_</h1>
             </div>
             <div>
-                <h3 style="margin-top:14pt; margin-bottom:14.05pt; text-align:center; ">
-                    <span style="font-family:'Times New Roman'; color:#000000">📚Studying_</span>
-                </h3>
-            </h3>
+                <h1 style="margin-top:14pt; margin-bottom:14pt; text-align:center; ">📚Studying_</h1>
             </div>
+            
         </section>
     </body>
 </html>

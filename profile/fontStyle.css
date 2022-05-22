@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "appleFont_H";
+    src: url(AppleSDGothicNeoH.ttf);
+    font-family: "appleFont_bold";
+    src: url(AppleSDGothicNeoEB.ttf);
+    font-family: "appleFont";
+    src: url(AppleSDGothicNeoL.ttf);
+}
+h1 {
+    font-size: 2em;
+    font-family: "appleFont_H";
+    text-shadow: 0.1em 0.2em 0.4em #f0d5d5;
+    /**
+    현재는 #f0d5d5
+    가 ㄱㅊ음
+    #E7E9BB
+    */
+    color:#ffffff
+}
+div, section, section section {
+    font-family: "appleFont";
+}
+p {
+    font: size 40px;
+    font-family: "appleFont";
+}
