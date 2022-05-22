@@ -9,44 +9,77 @@
         <link href="fontStyle.css" rel="stylesheet">
         <!--바디, 헤더 등 스타일-->
         <link href="bodyStyle.css" rel="stylesheet">
-        <style>
-            body {
-                    background: #076585;
-                    background: -webkit-linear-gradient(to right, #fff, #076585);  
-                    background: linear-gradient(to right, #fff, #076585);
-                }
-            div #usual {
-                margin-left:100px;
-                margin-top:30px;
-                margin-bottom:30px;
-            }
-            p #gitStyle{
-                margin-left:100px;
-                margin-top:30px;
-                margin-bottom:30px;
-            }
-        </style>
+        <link href="myInfo.css" rel="stylesheet">
+        <link href="intro.css" rel="stylesheet">
     </head>
     <body>
         
-        <header></header>
+        <header>
+            <img src="title.png" alt="헤더 사진" style="align-items: center;">
+        </header>
         <section>
+            <h1 style="margin-top:14pt; margin-bottom:14.05pt; text-align:center; "><span style="color:snow"><img style="height: 40px;width:40px;  filter:invert(); " src="headImg.png"><strong>About Me_</strong></span></h1>
 
             <!--저를 소개하는 글이 담겨 있습니다ㅏ-->
-            <div>
-                <h1 style="margin-top:14pt; margin-bottom:14.05pt; text-align:center; "><span style="color:snow">About Me_</span></h1>
+            <div >
+                <div class="container mt-5">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-7">
+                            <div class="card p-3 py-4">
+                                <div class="text-center">
+                                    <img src="profileImg.png" width="400" class="rounded-circle">
+                                </div>
 
-                <div id="usual">
-                <img src="https://ghchart.rshah.org/219138/SHCommit/" alt="깃 잔디"/>
+                                <div>
+                                    <span class="myName">Yang seunghyun</span>
+                                    <h4>DJU Computer Engineering</h4>
+                                    <span class="myTarget" style="text-shadow: 0.1em 0.1em 0.2em #daa0ad;">IOS Application Developer</span>
+                                    <br/><br/>
+                                    <div>
+                                        <!--
+                                        <ul>
+                                            <li>I'm studying swift for developing IOS app, and Computer Science, Algorithm</li>
+                                            <li>I am a 3rd year computer Scnen student</li>
+                                            <li>I like to plan and develop</li>
+                                        </ul>
+                                        -->
+                                        <div class="myInfomation">
+                                            I'm studying swift for developing IOS app, and Computer Science, Algorithm<br/>
+                                            I am a 3rd year computer Scnen student<br/>
+                                            I like to panning and developing<br/>
+                                        </div>
+                                        <p>
+                                            <a href="https://dev-with-precious-dreams.tistory.com/"  target="_blank"><img src="https://img.shields.io/badge/BLOG-lightgray?style=flat-square&logo=velog&logoColor=white"/></a>  
+                                            <a href="https://github.com/SHcommit" target="_blank" ><img  src="https://img.shields.io/badge/github-181717?style=flat-square&logo=github&logoColor=white"></a>
+                                            <img src="https://img.shields.io/badge/happysh_s2@naver.com-yellow?style=flat-square&logo=Gmail&logoColor=email"/>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>             
+                        </div>      
+                    </div>   
                 </div>
-                <p>
-                    안녕하세요. 저는 컴퓨터공학과 3학년 양승현입니다. 저는 <span style="text-shadow: 0.1em 0.2em 0.4em #f0d5d5;">IOS 앱 개발자</span>를 목표로 하고 있습니다.
-                </p>
-                
-                
-                <br/><br/><br/><br/>
             </div>
+            <br/><br/><br/>
+            <!-- 소개 끝-->
+            <div>
+                
+                <div class="firstDiv">
+                    <div class="firstDivSection"><div class="fdss"><img src="personImg.svg" ><span style="text-align:center">   이름</span><br/>   양승현</div> </div> <div class="firstDivSection">a</div>
+                    <div class="firstDivSection">a</div><div class="firstDivSection">a</div>
+                    <div class="firstDivSection">a</div><div class="firstDivSection">a</div>
+                </div>
 
+                <div class="spaceDiv">
+                </div>
+
+                <div class="container" id="myStyle">
+                    안녕하세요. 저는 컴퓨터공학과 3학년 양승현입니다. 저는 <span style="text-shadow: 0.1em 0.1em 0.2em #dd7088;">IOS 앱 개발자</span>를 목표로 하고 있습니다.          
+                </div>
+            </div>
+            <br/><br/><br/>
+            <img src="https://ghchart.rshah.org/219138/SHCommit"/>
+            <br/><br/><br/><br/><br/><br/><br/><br/>
 
             <!--저의 프로젝트가 담겨있습니다-->
             <div>
@@ -56,7 +89,7 @@
             </div>
             <!--백준 티어 와 관련된 div입니다.-->
             <div>
-                <h1 style="margin-top:14pt; margin-bottom:14.05pt; text-align:center; repeatCount:indefinite">
+                <h1 style="margin-top:14pt; margin-bottom:14pt; text-align:center;">
                     <span style="color:#ffffff">Baekjoon Tier_</span>
                 </h1>
                 <!--백준 프로필 이미지 불러오기-->
@@ -76,10 +109,10 @@
             </div>
 
             <div>
-                <h1 style="margin-top:14pt; margin-bottom:14pt; text-align:center; ">Tech_</h1>
+                <h1 style="margin-top:14pt; margin-bottom:14pt; text-align:center; "><strong>Tech_</strong></h1>
             </div>
             <div>
-                <h1 style="margin-top:14pt; margin-bottom:14pt; text-align:center; ">📚Studying_</h1>
+                <h1 style="margin-top:14pt; margin-bottom:14pt; text-align:center; "><strong>📚Studying_</strong></h1>
             </div>
             
         </section>
