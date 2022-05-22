@@ -20,7 +20,7 @@ h1 {
 div, section, section section {
     font-family: "appleFont";
 }
-p {
-    font: size 40px;
+div #info{
+    font-size:1.2em;
     font-family: "appleFont";
 }
