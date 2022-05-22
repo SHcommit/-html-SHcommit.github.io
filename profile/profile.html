@@ -4,7 +4,8 @@
     <head>
         <meta charset="utf-8"/>
         <meta name="viewoprt" content="width=device-width, initial-scale=1"/>
-
+        <!-- 지연 Image 기능되는 javaScript -->
+        <script src="LazyLoadImg.js"></script>
         <!--애플 폰트 추가-->
         <link href="fontStyle.css" rel="stylesheet">
         <!--바디, 헤더 등 스타일-->
@@ -13,15 +14,15 @@
         <link href="intro.css" rel="stylesheet">
     </head>
     <body>
-        
         <header>
-            <img src="title.png" alt="헤더 사진" style="align-items: center;">
+                <img src="title.png" alt="헤더 사진" style="align-items: center;">
         </header>
+
         <section>
             <h1 style="margin-top:14pt; margin-bottom:14.05pt; text-align:center; "><span style="color:snow"><strong>About Me_</strong></span></h1>
 
             <!--저를 소개하는 글이 담겨 있습니다ㅏ-->
-            <div >
+            <div>
                 <div class="container mt-5">
                     <div class="row d-flex justify-content-center">
                         <div class="col-md-7">
@@ -33,7 +34,7 @@
                                 <div>
                                     <span class="myName">Yang seunghyun</span>
                                     <h4>DJU Computer Engineering</h4>
-                                    <span class="myTarget" style="text-shadow: 0.1em 0.1em 0.2em #daa0ad;">IOS Application Developer</span>
+                                    <span class="myTarget" style="text-shadow: 0.1em 0.1em 0.2em #F3904F;">IOS Application Developer</span>
                                     <br/><br/>
                                     <div>
                                         <!--
@@ -81,19 +82,8 @@
             <br/>
             <!-- 소개 끝-->
 
-            <div>
-                <!-- 
-                    <div class="firstDiv">
-                    <div class="firstDivSection"><div class="fdss"><img src="personImg.svg" ><span style="text-align:center">   이름</span><br/>   양승현</div> </div> <div class="firstDivSection">a</div>
-                    <div class="firstDivSection">a</div><div class="firstDivSection">a</div>
-                    <div class="firstDivSection">a</div><div class="firstDivSection">a</div>
-                </div>
-                -->
-
-
-
             <!--저의 프로젝트가 담겨있습니다-->
-            <div>
+            <div id="div2">
                 <h1 style="margin-top:14pt; margin-bottom:14pt; text-align:center;">
                     <span style="font-family:'appleFont_H'; color:#ffffff">Project_</span>
                 </h1>
@@ -112,6 +102,7 @@
                         </div>
                     </div>
                 </div>
+
                 <!-- 계산기 -->
                 <div class="divProject">
                     <div class="containerProject mt-5" style="float:left">
@@ -170,6 +161,8 @@
                         </div>
                     </div>
                 </div>
+
+            <!-- float:left 없애기 -->
             <div style="clear:both">
                 <br/>
                 <br/>
@@ -179,23 +172,29 @@
                 <h1 style="margin-top:14pt; margin-bottom:14pt; text-align:center;">
                     <span style="color:#ffffff">Baekjoon Tier_</span>
                 </h1>
-                <!--백준 프로필 이미지 불러오기-->
-                <div style="display:inline-block;vertical-align:top;">
-                    <img src="boj_badge.svg" alt="백준 티어">
-                </div>
-                    <div style="display:inline-block;">
-                    <p>
-                        <!-- 알고리즘 관련 서술 -->
-                        <ul>
-                            <li>하핳</li>
-                            <li style="font-family: 'appleFont'">하하하핳</li>
-                        </ul>
-                    </p>
+                <div class="containerBaekjoon mt-5" >
+                    <div>
+                        <div class="reactiveGauge1 p-3 py-4">
+                            <!--백준 프로필 이미지 불러오기-->
+                            <img class="lazy" data-src="boj_badge.svg" style="float:left;" loading="lazy" alt="백준 티어">
+                            <div class="myInfomation" style="float: left;">
+                                <!-- 알고리즘 관련 서술 -->
+                                <ul>
+                                    <li>코딩 테스트를 대비해 백준 문제를 꾸준히 풀고 있습니다.</li>
+                                    <li style="margin-top:10px; margin-bottom:10px;">일주일에 5 문제 이상 풀고 있습니다.<br/></li>
+                                    <li>9월달 전까지 플레티넘 Tier를 달성할 것입니다.</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-
-            </div>
-
-            <div>
+                </div>
+                <!-- float:left 없애기 -->
+                <div style="clear:both">
+                    <br/>
+                    <br/>
+                </div>
+                
+                
                 <h1 style="margin-top:14pt; margin-bottom:14pt; text-align:center; "><strong>Tech_</strong></h1>
             </div>
             <div>
