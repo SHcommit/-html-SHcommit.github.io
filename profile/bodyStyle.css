@@ -109,3 +109,28 @@ background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, F
 
 
 }
+
+.containerStrong{
+    text-align: center;
+    margin:auto;
+    width:800px;
+    height: auto;
+    box-shadow: 10px 10px 10px rgb(156, 152, 152);
+    border-radius: 20px; 
+}
+.containerTech{
+    text-align: center;
+    margin:auto;
+    width: 850px;
+    height: auto;
+    box-shadow: 10px 10px 10px rgb(156, 152, 152);
+    border-radius: 20px;
+}
+
+.containerFooter{
+    width:100vw;
+}
+.imgFooter{
+    width:100%;
+    height:auto;
+}
