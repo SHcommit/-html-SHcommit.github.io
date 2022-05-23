@@ -7,9 +7,9 @@
     src: url(AppleSDGothicNeoL.ttf);
 }
 h1 {
-    font-size: 3em;
+    font-size: 4em;
     font-family: "appleFont_H";
-    text-shadow: 0.1em 0.2em 0.4em #f0d5d5;
+    text-shadow: 0.2em 0.2em 0.5em rgb(253, 186, 186);
     /**
     현재는 #f0d5d5
     가 ㄱㅊ음
@@ -47,6 +47,13 @@ div #myStyle{
     font-size:1.1em;
     font-family: "appleFont";
     color: snow;
+    
+}
+.myInfomation2{
+    font-size:1.1em;
+    font-family: "appleFont";
+    color: snow;
+    font-style:italic;
 }
 
 li {
