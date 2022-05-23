@@ -34,9 +34,11 @@ div #usual {
     display: inline-block;
     text-align: center;
 }
+
     /**
      * 동그랗게 만들어주는 부분
      */
+
 .container {
     text-align: center;
     margin:auto;
@@ -58,7 +60,8 @@ margin-bottom:30px;
 .containerGithub{
     text-align: center;
     margin:auto;
-    width: 800px;
+    /*width: 800px;*/
+    width: 1100px;
     height: auto;
     box-shadow: 10px 10px 10px rgb(156, 152, 152);
     border-radius: 20px; 
@@ -83,7 +86,8 @@ margin-bottom:30px;
 .containerBaekjoon{
     text-align: center;
     margin:auto;
-    width: 850px;
+    /*width: 850px;*/
+    width: 1100px;
     height: auto;
     box-shadow: 10px 10px 10px rgb(156, 152, 152);
     border-radius: 20px; 
@@ -113,7 +117,8 @@ background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, F
 .containerStrong{
     text-align: center;
     margin:auto;
-    width:800px;
+    /*width:800px;*/
+    width:1100px;
     height: auto;
     box-shadow: 10px 10px 10px rgb(156, 152, 152);
     border-radius: 20px; 

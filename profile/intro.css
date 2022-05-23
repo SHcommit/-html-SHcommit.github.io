@@ -16,7 +16,7 @@
     top:0;
     width:4px;
     height:100%;
-    background-color:#DECBA4;
+    background-color:#decba400;
     transform:scaleY(1);
     transition:all 0.5s;
     transform-origin: bottom
@@ -70,7 +70,7 @@
     top:0;
     width:5px;
     height:100%;
-    background: #a8ff78;  
+    background: #a7ff7800;  
 
     transform:scaleY(0);
     transition:all 0.5s;
@@ -98,7 +98,7 @@ c언어 프로젝트
     top:0;
     width:4px;
     height:100%;
-    background-color:#FFFDE4;
+    background-color:#fffde400;
     transform:scaleY(1);
     transition:all 0.5s;
     transform-origin: bottom
@@ -140,7 +140,7 @@ calculator
     top:0;
     width:4px;
     height:100%;
-    background-color:#40E0D0;
+    background-color:#40e0d000;
     transform:scaleY(1);
     transition:all 0.5s;
     transform-origin: bottom
@@ -183,7 +183,7 @@ imageProcessing & mfc
     top:0;
     width:4px;
     height:100%;
-    background-color:#E9E4F0;
+    background-color:#e9e4f000;
     transform:scaleY(1);
     transition:all 0.5s;
     transform-origin: bottom
@@ -226,7 +226,7 @@ ios movTheater
     top:0;
     width:4px;
     height:100%;
-    background-color:#F2F2F2;
+    background-color:#f2f2f200;
     transform:scaleY(1);
     transition:all 0.5s;
     transform-origin: bottom
@@ -267,7 +267,7 @@ animated trs swift
     top:0;
     width:4px;
     height:100%;
-    background-color:#1a2a6c;
+    background-color:#1a2a6c00;
     transform:scaleY(1);
     transition:all 0.5s;
     transform-origin: bottom
