@@ -162,3 +162,12 @@ background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, F
  margin-left: -24%;
 
 }
+a {
+    text-decoration-line: none ;
+}
+a:link, a:visited, a:hover{
+    color:#f2fcfe;
+}
+a:active{
+    color:#bfe9ff;
+}
