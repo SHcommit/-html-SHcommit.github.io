@@ -1,76 +1,115 @@
 /* 목차 스타일 */
-div .subtitle_list {
-    margin-left: 15%;
-    padding : 50px 30px 50px 30px;
-    position: relative;
-    width: fit-content;
-    z-index: 1;
-    text-align: center;
-    height: auto;
-    box-shadow: 10px 10px 20px #caeafa; 
-
+.subtitle_list {
+    margin-left: 5%;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-left: 15px;
+    
+    width:fit-content;
+    text-align: left;
+    box-shadow: 10px 10px 20px #ecb3b4; 
     border-radius: 15px;
 }
 
-div.subtitle_list p {
-font-weight: bold;
-font-size: 1.2em !important;
-color: #396120;
+#subtitle_title
+{
+    list-style-type: none;
+
 }
-#_list * {
-font-size: 20px;
-color: #000 !important;
+#subtitle_title >li
+{
+    padding-left: 50px;
+    background: url("title_list_42.png") left center no-repeat;
+    font-weight: bold;
+    font-size: 2.2em !important;
+    color: #f9787b;
 }
-#_list {
-margin-bottom: 0;
+
+#subtitle_list_li 
+{
+    margin-left: 20px;
+    font-size: 1.6em !important;
+    list-style-type: none;
+    text-decoration: none;
 }
-#_list a:hover {
-color: #000;
+/*여기는 이제 소 목록 1,2,3,4,등등 정하는거 홀수.*/
+#subtitle_list_li_case1 
+{
+    background: url("list_case1_30.png") left center no-repeat;
+    padding-left: 40px;
+    text-indent: 0;
+    margin-top: 10px;
+    text-decoration: none;
 }
-#_list ul {
-margin-top: 5px;
-margin-bottom: 0px;
+#subtitle_list_li_case1>a:link
+{
+    color: #f9787b;
+    text-decoration: none;
 }
-#_list > li {
-padding-left: 0;
-text-indent: 0;
-list-style-type: disc;
-margin-bottom: 10px;
+#subtitle_list_li_case1>a:visited
+{
+    color: #f9787b;
+    text-decoration: none;
 }
-#_list > li > a {
-text-decoration:none;
+#subtitle_list_li_case1>a:hover
+{
+
+    color: beige;
+    text-decoration: none;
 }
-#_list > li > ul {
-padding-left: 20px;
-margin-top: 0;
-margin-bottom: 0;
+#subtitle_list_li_case1>a:active
+{
+    color: #f9787b;
+    text-decoration: none;
 }
-#_list > li > ul > li {
-font-size: 0.87em;
-padding-left: 0;
-text-indent: 0;
-list-style-type: disc;
-margin-bottom: 0;
-margin-top: 5px;
+/*여기는 이제 소 목록 1,2,3,4,등등 정하는거 짝수.*/
+#subtitle_list_li_case2
+{
+    background: url("list_case2_30.png") left center no-repeat;
+    padding-left: 40px;
+    text-indent: 0;
+    margin-top: 10px;
+    text-decoration: none;
 }
-#_list > li > ul > li > a {
-font-size: 1em;
-text-decoration:none;
+
+#subtitle_list_li_case2>a:link
+{
+    color: #f9787b;
+    text-decoration: none;
 }
-#_list > li > ul > li > ul {
-padding-left: 10px;
-margin-top: 0;
-margin-bottom: 0;
+#subtitle_list_li_case2>a:visited
+{
+    color: #f9787b;
+    text-decoration: none;
 }
-#_list > li > ul > li > ul > li {
-font-size: 0.87em;
-padding-left: 0;
-text-indent: 0;
-list-style-type: disc;
-margin-bottom: 0;
-margin-top: 3px;
+#subtitle_list_li_case2>a:hover
+{
+
+    color: beige;
 }
-#_list > li > ul > li > ul > li > a {
-font-size: 0.875em;
-text-decoration:none;
+#subtitle_list_li_case2>a:active
+{
+    color: #f9787b;
+    text-decoration: none;
 }
+
+.h3Color
+{
+    color:#f9787b;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.h3Color::after
+{
+    text-decoration: none;
+}
+.h3Color::before
+{
+    text-decoration: none;
+}
+
+a:link{color:#f9787b; background-color: transparent;text-decoration: none;}
+a:visited{color:#f9787b; background-color: transparent; text-decoration: none;}
+a:hover{color:pink;background-color: transparent;text-decoration: none;}
+a:active{color:#f9787b; background-color: transparent; text-decoration: none;}
