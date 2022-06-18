@@ -1,0 +1,76 @@
+/* 목차 스타일 */
+div .subtitle_list {
+    margin-left: 15%;
+    padding : 50px 30px 50px 30px;
+    position: relative;
+    width: fit-content;
+    z-index: 1;
+    text-align: center;
+    height: auto;
+    box-shadow: 10px 10px 20px #caeafa; 
+
+    border-radius: 15px;
+}
+
+div.subtitle_list p {
+font-weight: bold;
+font-size: 1.2em !important;
+color: #396120;
+}
+#_list * {
+font-size: 20px;
+color: #000 !important;
+}
+#_list {
+margin-bottom: 0;
+}
+#_list a:hover {
+color: #000;
+}
+#_list ul {
+margin-top: 5px;
+margin-bottom: 0px;
+}
+#_list > li {
+padding-left: 0;
+text-indent: 0;
+list-style-type: disc;
+margin-bottom: 10px;
+}
+#_list > li > a {
+text-decoration:none;
+}
+#_list > li > ul {
+padding-left: 20px;
+margin-top: 0;
+margin-bottom: 0;
+}
+#_list > li > ul > li {
+font-size: 0.87em;
+padding-left: 0;
+text-indent: 0;
+list-style-type: disc;
+margin-bottom: 0;
+margin-top: 5px;
+}
+#_list > li > ul > li > a {
+font-size: 1em;
+text-decoration:none;
+}
+#_list > li > ul > li > ul {
+padding-left: 10px;
+margin-top: 0;
+margin-bottom: 0;
+}
+#_list > li > ul > li > ul > li {
+font-size: 0.87em;
+padding-left: 0;
+text-indent: 0;
+list-style-type: disc;
+margin-bottom: 0;
+margin-top: 3px;
+}
+#_list > li > ul > li > ul > li > a {
+font-size: 0.875em;
+text-decoration:none;
+}
