@@ -1,6 +1,6 @@
 /* 목차 스타일 */
 .subtitle_list {
-    margin-left: 5%;
+    margin-left: 3%;
     padding-top: 30px;
     padding-right: 50px;
     padding-left: 15px;
@@ -21,14 +21,14 @@
     padding-left: 50px;
     background: url("title_list_42.png") left center no-repeat;
     font-weight: bold;
-    font-size: 2.2em !important;
+    font-size: 2em !important;
     color: #f9787b;
 }
 
 #subtitle_list_li 
 {
     margin-left: 20px;
-    font-size: 1.6em !important;
+    font-size: 1.3em !important;
     list-style-type: none;
     text-decoration: none;
 }
