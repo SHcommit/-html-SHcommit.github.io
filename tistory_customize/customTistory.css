@@ -19,23 +19,23 @@
 #subtitle_title >li
 {
     padding-left: 50px;
-    background: url("title_list_42.png") left center no-repeat;
+    background: url("images/title_list_42.png") left center no-repeat;
     font-weight: bold;
-    font-size: 2em !important;
+    font-size: 1.8em !important;
     color: #f9787b;
 }
 
 #subtitle_list_li 
 {
     margin-left: 20px;
-    font-size: 1.3em !important;
+    font-size: 1.45em !important;
     list-style-type: none;
     text-decoration: none;
 }
 /*여기는 이제 소 목록 1,2,3,4,등등 정하는거 홀수.*/
 #subtitle_list_li_case1 
 {
-    background: url("list_case1_30.png") left center no-repeat;
+    background: url("images/list_case1_30.png") left center no-repeat;
     padding-left: 40px;
     text-indent: 0;
     margin-top: 10px;
@@ -65,7 +65,7 @@
 /*여기는 이제 소 목록 1,2,3,4,등등 정하는거 짝수.*/
 #subtitle_list_li_case2
 {
-    background: url("list_case2_30.png") left center no-repeat;
+    background: url("images/list_case2_30.png") left center no-repeat;
     padding-left: 40px;
     text-indent: 0;
     margin-top: 10px;
